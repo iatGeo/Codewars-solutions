@@ -5,7 +5,7 @@
 
 
 //My solutions
-const sequenceSum = (begin, end, step) => {
+function sequenceSum(begin, end, step){
     if(begin>end){
       return 0
     }else{
@@ -19,7 +19,7 @@ const sequenceSum = (begin, end, step) => {
     }
 }
 //Refactored to
-const sequenceSum = (begin, end, step) => {
+function sequenceSum(begin, end, step){
     let sum = 0
     for(let i=begin; i<=end; i+=step){
       sum += i
