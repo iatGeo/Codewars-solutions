@@ -14,7 +14,7 @@ function century(year) {
     if(x.length<=2){
       return 1
     }else{
-      return x.slice(-2) == 00 ?  +x.slice(0,-2) : +x.slice(0,-2) +1
+      return x.slice(-2) == +'00' ?  +x.slice(0,-2) : +x.slice(0,-2) +1
     }
 }
 
