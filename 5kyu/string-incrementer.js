@@ -41,3 +41,6 @@ function incrementString (strng) {
       }
     }
 }
+
+//best comunity's solution
+const incrementString = str => str.replace(/([0-8]|\d?9+)?$/, (e) => e ? + e + 1 : 1)
