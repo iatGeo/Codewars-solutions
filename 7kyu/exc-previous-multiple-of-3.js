@@ -18,8 +18,8 @@ const prevMultOfThree = (n) => {
    return n;
 };
 
-const prevMultOfThree = (n) => {
-   if (n === 0) return null;
-   if (n % 3 === 0) return n;
-   return prevMultOfThree(+String(n).slice(0, -1));
-};
+// const prevMultOfThree = (n) => {
+//    if (n === 0) return null;
+//    if (n % 3 === 0) return n;
+//    return prevMultOfThree(+String(n).slice(0, -1));
+// };
